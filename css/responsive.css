@@ -1,0 +1,7 @@
+@media (max-width:600px) {
+    nav ul li{
+        list-style: none;
+        margin-left: 4px;
+        margin-bottom: 10px;
+    }
+}

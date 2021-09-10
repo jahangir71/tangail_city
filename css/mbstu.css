@@ -1,0 +1,30 @@
+/* =================
+MBSTU TOP PART
+================== */
+.mbstu-top{
+    background:linear-gradient(rgba(181, 188, 196, 0.6), rgba(181, 188, 196, 0.6)), url("../img/mbstu-bg.jpg");
+    height: 400px;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+ .mbstu-info{
+    position: absolute;
+    top:40%;
+    left:5%;
+    /* transform: translate(-50%, -50%); */
+} 
+.mbstu-info h2{
+    font-size:36px;
+    color:#2c3e50;
+    line-height: 10px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.mbstu-info h1{
+    font-size: 30px;
+    color:#2c3e50;
+    text-transform: capitalize;
+   text-align: center;
+}

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+/* =================
+BASIC SETUP
+================== */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	outline:0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+/* =================
+HEADER
+================== */
+header{
+	background-color:#666;
+	height:90px;	
+}
+header img{
+	width:100px;
+	height:50px;
+	object-fit:cover;
+	float:left;
+	margin-top: 21px;
+	margin-left: 70px;
+	margin-right: -8px;
+	border-radius: 4px;
+	opacity: .6;
+}
+h1{
+	font-size:32px;
+	color:#f1f1f1;
+	padding:20px; 
+	text-transform:capitalize;
+	float: left;
+}
+.right-part{
+	float:right;
+	margin-right: 70px;
+}
+.right-part a{
+	display: block;
+	color:#f1f1f1;
+	font-size:20px;
+	text-decoration: none;
+	margin-top: 15px;
+	font-weight:600;
+	text-align: center;
+	margin-bottom: 4px;
+	text-transform: capitalize;
+}
+.right-part i{
+	width:30px;
+	height:30px;
+	background-color: #f7f7f7;
+	color:#727272;
+	text-align: center;
+	line-height:30px;
+	border-radius: 50%;
+	margin-right: 10px;
+	transition: .5s;	
+}
+.right-part i:hover{
+	color:#f7f7f7;
+	transform:rotate(360deg);
+}
+.fa-facebook:hover{
+	background-color:#0B85EE;
+}
+.fa-linkedin:hover{
+	background-color:#0A66C2;
+}
+.fa-youtube:hover{
+	background-color:#FF0000;
+}
+/* =================
+NAVIGATION
+================== */
+nav{
+	width:20%;
+	float:left;
+	background:#524E81;
+	overflow: hidden;
+	height:207vh;
+}
+nav ul{
+	margin-top: 40px;
+}
+nav ul li{
+	list-style: none;
+    margin-left: 70px; 
+	margin-bottom: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	color:#d4d4d4;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+nav ul li:hover a{
+	color:#fff;
+}
+/* =================
+MAIN CONTENT
+================== */
+.container{
+	float:left;
+	width:80%;
+    height:auto; 
+	background-color: #f7f7f7;
+}
+ .card{ 
+	float: left;
+	width: 252px;
+	margin: 20px;
+	margin-left: 30px;
+	box-shadow: 2px 2px 3px #666;
+	transition: .3s;
+}
+.card-two{
+	box-shadow: none;
+	border: none;
+}
+.card-two:hover{
+	box-shadow: 4px 4px 3px #666;
+	/* border:1px solid #d4d4d4; */
+}
+.card-body{
+	background-color: #f7f7f7;
+	border:1px solid #d4d4d4;
+}
+.card-description{
+	padding: 10px;
+}
+.card-description h2{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 28px;
+	color:#2F263B;
+}
+.card-description p{
+	font-size: 15px;
+	color: #727272;
+	margin:8px 0;
+	line-height:24px;
+	text-align: center;
+}
+button{
+	width:100%;
+	height:40px;
+	font-size: 18px;
+	font-weight: 500;
+	background-color: #666;
+	color:#f1f1f1;
+	border:none;
+	border-radius: 6px;
+	transition: .3s;
+	cursor: pointer;
+}
+.btn-1:hover{
+	background: transparent;
+	border: 1px solid #666;
+	color:#727272;
+}
+.btn-2{
+	background-color: transparent;
+	color:#666;
+	border: 1px solid #666;
+}
+.btn-2:hover{
+	background-color: #666;
+	color:#f1f1f1;
+}
+iframe{
+	margin-bottom: -7px;
+}
+
+/* =================
+FOOTER
+================== */
+footer p{
+	text-align: center;
+    background: #666; 
+	color:#f7f7f7;
+	font-size: 20px;
+	margin-top: 50px;
+	line-height:60px;
+}
+

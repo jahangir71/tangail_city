@@ -1,0 +1,44 @@
+section {
+    margin-top: -50px;
+}
+.jamuna img{
+    width:100%;
+    height: 500px;
+    object-fit: cover;
+}
+.jamuna h3{
+    font-size: 38px;
+    color:#1f1f1f;
+    font-weight:500;
+    margin: 20px;
+    text-transform: capitalize;
+}
+h3::after{
+    content: '';
+    display: block;
+    width:290px;
+    height:4px;
+    background-color:#524E81;
+    border-radius: 3px;
+}
+.jamuna p{
+    font-size:17px;
+    color:#727272;
+    padding:20px;
+    text-align: justify;
+    line-height: 28px;
+}
+.img-gallery h3{
+    font-size: 38px;
+    color:#1f1f1f;
+    font-weight:500;
+    margin: 20px;
+    word-spacing: 15px;
+}
+figure img{
+    margin: 8px 25px;
+    transition: .3s;
+}
+figure img:hover{
+    transform: scale(1.1);
+}
